@@ -1850,7 +1850,7 @@ input, select, textarea {
 			width: 48px;
 			height: 48px;
 			margin-left: 0px;
-			padding-left:0;
+			position: relative;
 		}
 
 			.image.avatar48 img {

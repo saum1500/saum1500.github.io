@@ -2154,6 +2154,7 @@ input, select, textarea {
 			position: relative;
 			left: 0;
 			margin-left: 0%;
+			padding-left:0;
 			top: 0;
 		}
 	#nav ul {

@@ -1850,6 +1850,7 @@ input, select, textarea {
 			width: 48px;
 			height: 48px;
 			margin-left: 0px;
+			padding-left:0;
 		}
 
 			.image.avatar48 img {
@@ -1879,6 +1880,7 @@ input, select, textarea {
 		}
 		.image.logo {
 			display: block;
+			margin-left: 40%;
 		}
 		.image.logo img {
 			width:30%;

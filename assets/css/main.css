@@ -2151,10 +2151,8 @@ input, select, textarea {
 		}
 
 		#logo .image {
-			position: relative;
+			position: absolute;
 			left: 0;
-			margin-left: 0%;
-			padding-left:0;
 			top: 0;
 		}
 	#nav ul {

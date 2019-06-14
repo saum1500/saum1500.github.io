@@ -2153,6 +2153,7 @@ input, select, textarea {
 		#logo .image {
 			position: relative;
 			left: 0;
+			margin-left: 0%;
 			top: 0;
 		}
 	#nav ul {

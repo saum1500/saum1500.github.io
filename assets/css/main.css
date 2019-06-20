@@ -2132,7 +2132,7 @@ input, select, textarea {
 			position: relative;
 			color: rgba(221, 210, 210, 0.836);
 			font-weight: 600;
-			font-size: 1.5em;
+			font-size: 1em;
 			line-height: 1em;
 			position: absolute; 
 			top: 25%;

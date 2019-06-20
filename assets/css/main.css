@@ -2151,10 +2151,15 @@ input, select, textarea {
 		}
 
 		#logo .image {
-			position: absolute;
+			position: relative;
 			left: 0;
 			top: 0;
+			margin-left:0px;
 		}
+		/*#logo .image {
+			position: relative;
+			margin: 0 0 0.5em 0;
+		}*/
 	#nav ul {
 		list-style: none;
 		padding-left: 0;
@@ -2677,10 +2682,6 @@ input, select, textarea {
 				width: 20%;
 			}
 
-			#logo .image {
-				position: relative;
-				margin: 0 0 0.5em 0;
-			}
 
 			#nav ul li a {
 				font-size: 0.8em;

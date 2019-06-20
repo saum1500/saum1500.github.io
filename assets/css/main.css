@@ -2136,7 +2136,7 @@ input, select, textarea {
 			line-height: 1em;
 			position: absolute; 
 			top: 25%;
-			left: 50%;
+			/*left: 50%;*/
 		}
 
 		#logo p {

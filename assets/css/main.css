@@ -2154,7 +2154,9 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-			margin-left:0px;
+			margin-left:0em;
+			margin: 0 0 0.5em 0;
+
 		}
 		/*#logo .image {
 			position: relative;

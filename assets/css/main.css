@@ -2132,11 +2132,11 @@ input, select, textarea {
 			/*position: relative;*/
 			color: rgba(221, 210, 210, 0.836);
 			font-weight: 600;
-			font-size: 0.5em;
+			font-size: 1em;
 			line-height: 1em;
 			position: absolute; 
 			top: 25%;
-			left: 60%;
+			/*left: 60%;*/
 		}
 
 		#logo p {

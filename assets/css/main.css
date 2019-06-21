@@ -2134,9 +2134,9 @@ input, select, textarea {
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
-			position: absolute; 
-			top: 25%;
-			left: 60%
+			position: relative; 
+			/*top: 25%;
+			left: 60%*/
 		}
 
 		#logo p {
@@ -2146,8 +2146,8 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
-			top: 25%;
-			left: 40%;
+			/*top: 25%;
+			left: 40%;*/
 		}
 
 		#logo .image {

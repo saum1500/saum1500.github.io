@@ -2134,7 +2134,7 @@ input, select, textarea {
 			font-weight: 600;
 			font-size: 1.5em;
 			line-height: 1em;
-			position: relative; 
+			position: absolute; 
 			top: 25%;
 			left: 50%;
 		}
@@ -2333,7 +2333,6 @@ input, select, textarea {
 			}
 			#main > section.four .container h2{
 				text-align: center;
-				color: rgb(224, 223, 223);
 			}
 			/*skills bar */
 			#main > section.four .container{

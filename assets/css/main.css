@@ -2320,12 +2320,12 @@ input, select, textarea {
 				text-align: center;
 			}
 			.box1.half {
-				width:calc(50% - 10px);
+				width:calc(50% - 20px);
 				float:right;
 			}
 			.box1.half:nth-child(even) {
 				border-right: 3px solid rgb(179, 88, 88, .877);
-				padding-right: 20px;
+				padding-right: 40px;
 				float:left;
 			}
 			#main > section.four{
@@ -2473,7 +2473,7 @@ input, select, textarea {
 				position: relative;
 				width: 400px;
 				height: 407px;
-				left:130px;
+				left:80px;
 			}
 			.box .content {
 				position: absolute;
@@ -2484,7 +2484,7 @@ input, select, textarea {
 				background: #202428;
 				overflow: hidden;
 				text-align: center;
-				border:2px solid rgb(235, 229, 229);
+				border:2px solid rgba(214, 205, 205, 0.877);
 			}
 			.box .content:before {
 				content:'';

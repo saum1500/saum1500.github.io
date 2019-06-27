@@ -2473,18 +2473,18 @@ input, select, textarea {
 				position: relative;
 				width: 400px;
 				height: 407px;
-				left:80px;
+				/*left:130px;*/
 			}
 			.box .content {
 				position: absolute;
 				top:10px;
-				left:10px;
+				left:0px;
 				right:10px;
 				bottom:10px;
 				background: #202428;
 				overflow: hidden;
 				text-align: center;
-				border:2px solid rgba(214, 205, 205, 0.877);
+				border:2px solid rgb(214, 205, 205);
 			}
 			.box .content:before {
 				content:'';

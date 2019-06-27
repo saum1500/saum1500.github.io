@@ -1871,12 +1871,12 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
-			height: 600px;/*from 400*/
+			height: 300px;/*from 400*/
 			margin: 0 0 2em 0;
 		}
 		.image.featured img {
 			width: 100%;
-			height: 600px;/*from 400*/
+			height: 300px;/*from 400*/
 		}
 		.image.logo {
 			display: block;
@@ -2473,7 +2473,7 @@ input, select, textarea {
 				position: relative;
 				width: 400px;
 				height: 407px;
-				/*left:130px;*/
+				left:30px;
 			}
 			.box .content {
 				position: absolute;

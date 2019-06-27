@@ -1870,6 +1870,7 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
+			top:10px;
 			width: 100%;
 			height: 300px;/*from 400*/
 			margin: 0 0 2em 0;
@@ -1962,7 +1963,7 @@ input, select, textarea {
 		table th {
 			text-align: left;
 			padding: 0.5em 1em 0.5em 1em;
-			color: #fff;
+			color: rgb(240, 231, 231);
 			background: #222729 url("images/overlay.png");
 		}
 

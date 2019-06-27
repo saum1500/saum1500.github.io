@@ -1871,12 +1871,12 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
-			height: 400px;
+			height: 600px;/*from 400*/
 			margin: 0 0 2em 0;
 		}
 		.image.featured img {
 			width: 100%;
-			height: 400px;
+			height: 600px;/*from 400*/
 		}
 		.image.logo {
 			display: block;

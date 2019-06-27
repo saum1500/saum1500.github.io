@@ -2473,8 +2473,8 @@ input, select, textarea {
 				position: relative;
 				width: 400px;
 				height: 407px;
-				left:30px;
-				right:30px;
+				left:50px;
+				right:50px;
 			}
 			.box .content {
 				position: absolute;

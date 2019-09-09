@@ -2369,16 +2369,22 @@ input, select, textarea {
 				height: 15px;
 			}
 			.java {
-				width:65%;
+				width:70%;
 				-webkit-animation: java 2s ease-out;
 				-o-animation: java 2s ease-out;
 				animation: java 2s ease-out;
 			}
 			.c {
-				width:50%;
+				width:65%;
 				-webkit-animation: c 2s ease-out;
 				-o-animation: c 2s ease-out;
 				animation: c 2s ease-out;
+			}
+			.py {
+				width:45%;
+				-webkit-animation: py 2s ease-out;
+				-o-animation: py 2s ease-out;
+				animation: py 2s ease-out;
 			}
 			.r {
 				width:40%;

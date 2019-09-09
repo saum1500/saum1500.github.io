@@ -2380,11 +2380,11 @@ input, select, textarea {
 				-o-animation: c 2s ease-out;
 				animation: c 2s ease-out;
 			}
-			.py {
+			.python {
 				width:45%;
-				-webkit-animation: py 2s ease-out;
-				-o-animation: py 2s ease-out;
-				animation: py 2s ease-out;
+				-webkit-animation: python 2s ease-out;
+				-o-animation: python 2s ease-out;
+				animation: python 2s ease-out;
 			}
 			.r {
 				width:40%;
@@ -2418,20 +2418,20 @@ input, select, textarea {
 					width: 65%;
 				}
 			}
-			@keyframes py {
-				0% {
-					width:0%;
-				}
-				100% {
-					width: 45%;
-				}
-			}
 			@keyframes c {
 				0% {
 					width:0%;
 				}
 				100% {
 					width: 50%;
+				}
+			}
+			@keyframes python {
+				0% {
+					width:0%;
+				}
+				100% {
+					width: 45%;
 				}
 			}
 			@keyframes r {

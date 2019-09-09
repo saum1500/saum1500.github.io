@@ -2415,7 +2415,7 @@ input, select, textarea {
 					width:0%;
 				}
 				100% {
-					width: 65%;
+					width: 70%;
 				}
 			}
 			@keyframes c {
@@ -2423,7 +2423,7 @@ input, select, textarea {
 					width:0%;
 				}
 				100% {
-					width: 50%;
+					width: 65%;
 				}
 			}
 			@keyframes python {

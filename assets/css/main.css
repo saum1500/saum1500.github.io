@@ -2311,24 +2311,7 @@ input, select, textarea {
 				width: 1140px;
 				margin:0px auto;
 			}
-			.box1 h3{
-				font-size: 28px;
-			}
-			.box1 {
-				background: #202428;
-				padding: 0px auto;
-				margin-bottom:15px;
-				text-align: center;
-			}
-			.box1.half {
-				width:calc(50% - 20px);
-				float:right;
-			}
-			.box1.half:nth-child(even) {
-				border-right: 3px solid rgb(179, 88, 88, .877);
-				padding-right: 40px;
-				float:left;
-			}
+			
 			#main > section.four{
 				background-color: #202428;
 			}

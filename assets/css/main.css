@@ -118,7 +118,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: rgba(221, 210, 210, 0.836);/*#666;changed in march 2020*/
 		line-height: 1.5em;
 	}
 
@@ -1881,7 +1881,7 @@ input, select, textarea {
 		}
 		.image.logo {
 			display: block;
-			margin-left: 40%;
+			margin-left: 40% auto; /* added auto part march 2020*/
 		}
 		.image.logo img {
 			width:30%;
@@ -2137,7 +2137,7 @@ input, select, textarea {
 			line-height: 1em;
 			position: absolute; 
 			top: 25%;
-			left: 50%;
+			left: 60%;
 		}
 
 		#logo p {
@@ -2471,8 +2471,8 @@ input, select, textarea {
 				position: relative;
 				width: 400px;
 				height: 407px;
-				left:50px;
-				right:50px;
+                                left:40px auto;
+				right:50px auto;
 			}
 			.box .content {
 				position: absolute;
@@ -2483,8 +2483,21 @@ input, select, textarea {
 				background: #202428;
 				overflow: hidden;
 				text-align: center;
-				border:2px solid rgb(214, 205, 205);
-			}
+                                border:2px solid rgb(214, 205, 205);
+                        }
+                        /* h3 and h4 part is new march 2020*/
+                        .box .content h3 {
+                                margin: 0;
+                                padding: 0;
+                        }
+                        .box .content h4 {
+                                margin: 0;
+                                padding: 0;
+                        }
+                        .box .content p {
+                                margin: 0 0;
+                                padding: 0;
+                        }
 			.box .content:before {
 				content:'';
 				position: absolute;
@@ -2496,7 +2509,10 @@ input, select, textarea {
 				pointer-events: none;
 				background: rgb(233, 226, 226);
 
-			}
+                        }
+                        .box .content li {
+                                color:rgba(221, 210, 210, 0.836) ;
+                        }
 			.box span {
 				position: absolute;
 				top:0;

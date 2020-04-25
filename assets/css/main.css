@@ -6,6 +6,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+/* red color: rgb(179, 88, 88); */
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -120,7 +121,37 @@ input, select, textarea {
 		font-weight: 300;
 		color: rgba(221, 210, 210, 0.836);/*#666;changed in march 2020*/
 		line-height: 1.5em;
-	}
+        }
+        
+        /*new addition */
+        h4.uiuc {
+                text-align: left;
+                padding-left: 10%;
+        }
+        h2.heading-shadow {
+                font-weight: 500;
+                font-size:40pt;
+              /* text-shadow: 0px 0px 20px rgb(153, 32, 32);*/
+        }
+        .uiuclogo h3{
+                font-weight: 500;
+                font-size: 35pt;
+                color: rgb(255,255,255,0.1);
+                background-image:url(./images/bo4.png) ;
+                background-repeat: repeat-x;
+                -webkit-background-clip: text;
+                animation: animate 15s linear infinite;
+        }
+        @keyframes animate {
+                0% {
+                        background-position: left 0px top 10px;
+                }
+                40% {
+                        background-position: left 800px top 10px;
+                }
+        }
+
+
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
@@ -2119,7 +2150,9 @@ input, select, textarea {
 
 				#header .icons a:hover {
 					color: rgba(179, 88, 88, 0.877);
-				}
+                                }
+
+
 
 	#logo {
 		position: relative;

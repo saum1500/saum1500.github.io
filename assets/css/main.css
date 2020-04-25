@@ -123,17 +123,14 @@ input, select, textarea {
 		line-height: 1.5em;
         }
         
-        /*new addition */
-        h4.uiuc {
-                text-align: left;
-                padding-left: 10%;
-        }
-        h2.heading-shadow {
+        /*uiuc and shik*/
+         /*uiuc heading begin*/
+         h2.heading-shadow {
                 font-weight: 500;
                 font-size:40pt;
               /* text-shadow: 0px 0px 20px rgb(153, 32, 32);*/
         }
-        .uiuclogo h3{
+         .uiuclogo h3{
                 font-weight: 500;
                 font-size: 35pt;
                 color: rgb(255,255,255,0.1);
@@ -159,6 +156,31 @@ input, select, textarea {
                         background-position: left 800px top 10px;
                 }
         }
+
+        /*uiuc heading end*/
+
+        /*uiuc major and image*/
+        .textcoluiuc h4{
+                text-align: left;
+                padding-left: 10%;
+                font-size: 20pt;
+        } 
+        /*.imagecoluiuc img {
+                max-width: 40%;
+                display: inline-flex;
+        }
+        .imagecoluiuc {
+                flex-basis: 45%;
+        }
+        .uiucsummary {
+                display: flex;
+                align-items: center;
+        } */
+
+        /*uiuc major and image end*/
+        /*uiuc courses begin */
+
+        /*uiuc courses end*/
 
 
 
@@ -2360,138 +2382,7 @@ input, select, textarea {
 			#main > section.four .container h2{
 				text-align: center;
 			}
-			/*skills bar */
-			#main > section.four .container{
-				width: 1170px;
-				margin: 0 auto;
-				position: relative;
-				padding: 30px 0 30px;
-				line-height: 28px;
-			}
-			.skills h3 {
-				margin-left: 3%;
-			}
-			.skills{
-				width: 100%;
-			}
-			.single-skills {
-				list-style: none;
-				padding-top: 25px;
-			}
-			.single-skills li {
-				margin-bottom: 40px;
-				height:15px;
-			}
-			.single-skills li b{
-				position: relative;
-				top:-35px;
-				font-size: 20px;
-			}
-			.line {
-				position: absolute;
-				background: rgb(179, 88, 88, .877);
-				margin:2px 0;
-				height: 15px;
-			}
-			.java {
-				width:70%;
-				-webkit-animation: java 2s ease-out;
-				-o-animation: java 2s ease-out;
-				animation: java 2s ease-out;
-			}
-			.c {
-				width:65%;
-				-webkit-animation: c 2s ease-out;
-				-o-animation: c 2s ease-out;
-				animation: c 2s ease-out;
-			}
-			.python {
-				width:45%;
-				-webkit-animation: python 2s ease-out;
-				-o-animation: python 2s ease-out;
-				animation: python 2s ease-out;
-			}
-			.r {
-				width:40%;
-				-webkit-animation: r 2s ease-out;
-				-o-animation: r 2s ease-out;
-				animation: r 2s ease-out;
-			}
-			.html{
-				width:35%;
-				-webkit-animation: html 2s ease-out;
-				-o-animation: html 2s ease-out;
-				animation: html 2s ease-out;
-			}
-			.css {
-				width:30%;
-				-webkit-animation: css 2s ease-out;
-				-o-animation: css 2s ease-out;
-				animation: css 2s ease-out;
-			}
-			.excel {
-				width:35%;
-				-webkit-animation: excel 2s ease-out;
-				-o-animation: excel 2s ease-out;
-				animation: excel 2s ease-out;
-			}
-			@keyframes java {
-				0% {
-					width:0%;
-				}
-				100% {
-					width: 70%;
-				}
-			}
-			@keyframes c {
-				0% {
-					width:0%;
-				}
-				100% {
-					width: 65%;
-				}
-			}
-			@keyframes python {
-				0% {
-					width:0%;
-				}
-				100% {
-					width: 45%;
-				}
-			}
-			@keyframes r {
-				0% {
-					width:0%;
-				}
-				100% {
-					width: 40%;
-				}
-			}
-			@keyframes html {
-				0% {
-					width:0%;
-				}
-				100% {
-					width: 35%;
-				}
-			}
-			@keyframes css {
-				0% {
-					width:0%;
-				}
-				100% {
-					width: 30%;
-				}
-			}
-			@keyframes excel{
-				0% {
-					width:0%;
-				}
-				100% {
-					width: 35%;
-				}
-			}
-			/*end of skills bar*/
+			
 			
 
 			#main > section.five {
@@ -2507,7 +2398,8 @@ input, select, textarea {
 				text-align: center;
 			}
 
-			/*experience*/
+                        /*experience*/
+                        
 			.box {
 				display: flex;
 				position: relative;
@@ -2594,7 +2486,112 @@ input, select, textarea {
 			}
 			.box:nth-child(2) {
 				float:left;
+                        }
+                        
+                        /*skills bar 
+			#main > section.four .container{
+				width: 1170px;
+				margin: 0 auto;
+				position: relative;
+				padding: 30px 0 30px;
+				line-height: 28px;
+			}* this part made it unresponsive */
+			.skills h3 {
+				margin-left: 3%;
 			}
+			.skills{
+				width: 100%;
+			}
+			.single-skills {
+				list-style: none;
+				padding-top: 25px;
+			}
+			.single-skills li {
+				margin-bottom: 40px;
+				height:15px;
+			}
+			.single-skills li b{
+				position: relative;
+				top:-35px;
+				font-size: 20px;
+			}
+			.line {
+				position: absolute;
+				background: rgb(179, 88, 88, .877);
+				margin:2px 0;
+				height: 15px;
+			}
+			.java {
+				width:70%;
+				-webkit-animation: java 2s ease-out;
+				-o-animation: java 2s ease-out;
+				animation: java 2s ease-out;
+			}
+			.c {
+				width:65%;
+				-webkit-animation: c 2s ease-out;
+				-o-animation: c 2s ease-out;
+				animation: c 2s ease-out;
+			}
+			.python {
+				width:45%;
+				-webkit-animation: python 2s ease-out;
+				-o-animation: python 2s ease-out;
+				animation: python 2s ease-out;
+			}
+			.r {
+				width:40%;
+				-webkit-animation: r 2s ease-out;
+				-o-animation: r 2s ease-out;
+				animation: r 2s ease-out;
+			}
+			.html{
+				width:35%;
+				-webkit-animation: html 2s ease-out;
+				-o-animation: html 2s ease-out;
+				animation: html 2s ease-out;
+			}
+			@keyframes java {
+				0% {
+					width:0%;
+				}
+				100% {
+					width: 70%;
+				}
+			}
+			@keyframes c {
+				0% {
+					width:0%;
+				}
+				100% {
+					width: 65%;
+				}
+			}
+			@keyframes python {
+				0% {
+					width:0%;
+				}
+				100% {
+					width: 45%;
+				}
+			}
+			@keyframes r {
+				0% {
+					width:0%;
+				}
+				100% {
+					width: 40%;
+				}
+			}
+			@keyframes html {
+				0% {
+					width:0%;
+				}
+				100% {
+					width: 35%;
+				}
+			}
+			/*end of skills bar*/
 			
 			
 /*Portfolio*/

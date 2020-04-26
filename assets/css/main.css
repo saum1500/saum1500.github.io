@@ -179,6 +179,51 @@ input, select, textarea {
 
         /*uiuc major and image end*/
         /*uiuc courses begin */
+        .courseshead {
+                font-size: 35px;
+        }
+        .courses {
+                position: relative;
+                background: #fff;
+                width: 300px;
+                height: 400px;
+                margin: 0 auto;
+                /*display: flex;
+                margin: 0;  body stuff */
+                /*min-height: 100vh;*/
+        }
+        .courses .slidercontent {
+                width: 300px;
+                padding: 30px;
+                box-sizing: border-box;
+        }
+        .courses .slidercontent a {
+                display: inline-block;
+                margin: 2px 0 0;
+                padding: 10px 20px;
+                text-decoration: none;
+                border: 2px solid #202428;
+                color: #202428;
+                font-weight: 600;
+        }
+        .courses .slidertext {
+                position: relative;
+                width: 100%;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: rgba(3, 16, 41, 0.87);
+        }
+        .courses .slidertext h3 {
+                font-weight: 350;
+                font-size: 28px;
+                color: rgba(218, 85, 9, 0.89);
+        }
+
+        .swiper-container .swiper-wrapper .swiper-slide {
+                width: 300px;
+        }
 
         /*uiuc courses end*/
 

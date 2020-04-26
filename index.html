@@ -6,7 +6,8 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="icon" type="image/ico" href="images/logo.png" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="swiper-5.3.8/package/css/swiper.min.css" />
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142793216-1"></script>
@@ -178,14 +179,73 @@
                                                 </div> !-->
                                         </div>
                                 </header>
-                                <h4>Courses</h4>
-                                <div class="courses">
+                                <h3 class="courseshead">Courses</h3>
+                                <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                        <div class="courses">
+                                                                <div class="slidertext">
+                                                                        <h3>Computer Science</h3>
+                                                                </div>
+                                                                <div class="slidercontent">
+                                                                        <p> Lorem ipsum dolor sit amet,  dignissim ut, vide admodum ut usu, vim cu error quidam intellegamip</p>
+                                                                        <a href="#CSmore">Read More</a>
+                                                                
+                                                                </div>
+                                                        </div>
+                                                </div>
 
+                                                <div class="swiper-slide">
+                                                        <div class="courses">
+                                                                <div class="slidertext">
+                                                                        <h3>Computer Science</h3>
+                                                                </div>
+                                                                <div class="slidercontent">
+                                                                        <p> Lorem ipsum dolor sit amet,  dignissim ut, vide admodum ut usu, vim cu error quidam intellegamip</p>
+                                                                        <a href="#CSmore">Read More</a>
+                                                                
+                                                                </div>
+                                                        </div>
+                                                </div>
+
+                                                <div class="swiper-slide">
+                                                        <div class="courses">
+                                                                <div class="slidertext">
+                                                                        <h3>Computer Science</h3>
+                                                                </div>
+                                                                <div class="slidercontent">
+                                                                        <p> Lorem ipsum dolor sit amet,  dignissim ut, vide admodum ut usu, vim cu error quidam intellegamip</p>
+                                                                        <a href="#CSmore">Read More</a>
+                                                                
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                        </div>
                                 </div>
-
+                                <script src="swiper-5.3.8/package/js/swiper.min.js"></script>
+                                 <!-- Initialize Swiper -->
+                                <script>
+                                        var swiper = new Swiper('.swiper-container', {
+                                          effect: 'coverflow',
+                                          grabCursor: true,
+                                          centeredSlides: true,
+                                          slidesPerView: 'auto',
+                                          coverflowEffect: {
+                                            rotate: 30,
+                                            stretch: 0,
+                                            depth: 500,  // changed to 500
+                                            modifier: 1,
+                                            slideShadows : true,
+                                          },
+                                          pagination: {
+                                            el: '.swiper-pagination',
+                                          },
+                                        });
+                                </script>
                                 <div><h4>Student Organizations</h4></div>
                                 <div><h4>Academic Assistantships</h4></div>
                         </div>
+                        <!-- container is used for the colored logo part-->
                         <div class="container">
                                 <header>
                                 <div class = "shiklogo">

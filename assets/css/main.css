@@ -7,6 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 /* red color: rgb(179, 88, 88); */
+/* text color: color:rgba(216, 201, 201, 0.699);*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -184,7 +185,7 @@ input, select, textarea {
         }
         .courses {
                 position: relative;
-                background: #fff;
+                background: rgba(216, 211, 201, 0.87);
                 width: 300px;
                 height: 400px;
                 margin: 0 auto;
@@ -194,13 +195,18 @@ input, select, textarea {
         }
         .courses .slidercontent {
                 width: 300px;
-                padding: 30px;
+                /*padding: 30px; I changed this to*/
                 box-sizing: border-box;
         }
+        .courses .slidercontent li {
+                color: #202428;
+                font-size:15px;
+        }
+        /* makes the read more box */
         .courses .slidercontent a {
                 display: inline-block;
-                margin: 2px 0 0;
-                padding: 10px 20px;
+                margin: 1px 0 0;
+                padding: 5px 10px;
                 text-decoration: none;
                 border: 2px solid #202428;
                 color: #202428;
@@ -216,7 +222,7 @@ input, select, textarea {
                 background: rgba(3, 16, 41, 0.87);
         }
         .courses .slidertext h3 {
-                font-weight: 350;
+                font-weight: 400;
                 font-size: 28px;
                 color: rgba(218, 85, 9, 0.89);
         }
@@ -268,8 +274,9 @@ input, select, textarea {
 	}
 
 	strong, b {
-		font-weight: 300;
-		color: #666;
+                font-weight: 600;
+                color:rgba(216, 201, 201, 0.699);
+		/*color: rgb(112, 110, 110);*/
 	}
 
 	em, i {

@@ -8,6 +8,7 @@
 	<link rel="icon" type="image/ico" href="images/logo.png" />
         <link rel="stylesheet" href="assets/css/main.css" />
         <link rel="stylesheet" href="assets/css/swiper.min.css" />
+
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142793216-1"></script>
@@ -38,9 +39,11 @@
 			<nav id="nav">
 				<ul>
                                         <li><a href="#about" id="about-link"><span class="icon fa-user">About Me</span></a></li>
-                                        <li> <a href="#experience" id="experience-link"><span class="icon fa-briefcase">Experience</span></a></li>
-					<li> <a href="#qualification" id="qualification-link"><span
-								class="icon fa-graduation-cap">Qualifications</span></a></li>
+                                        <!--<li> <a href="#experience" id="experience-link"><span class="icon fa-briefcase">Experience</span></a></li>!-->
+                                        <li> <a href="#qualification" id="qualification-link"><span
+                                                class="icon fa-graduation-cap">Qualifications</span></a></li>
+                                        <li><a href="#skills" id="skills-link"><span class="icon fa-code">Skills</span></a></li>
+                                        <li><a href="#assistantships" id ="assistantship-link"><span class ="icon fa-university">Assistantships</span></a></li>
 					<li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">Projects</span></a></li>
 					<!-- <li><a href="#hobbies" id="hobbies-link"><span class="icon fa-video-camera">Hobbies</span></a></li>-->
 					<li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li>
@@ -97,68 +100,9 @@
 					</p>
 				</div>
 			</div>
-		</section>
-		<!-- Experience -->
-		<section id="experience" class="four">
-			<div class="container">
-				<header>
-					<h2 class="heading-shadow">Experience</h2>
-				</header>
-				<div data-aos="zoom-out">
-					<div class="skills">
-						<h3>Languages</h3>
-						<ul class="single-skills">
-							<li><span class="line java"></span><b> JAVA</b></li>
-							<li><span class="line c"></span><b> C++</b></li>
-							<li><span class="line python"><b>PYTHON</b></span></li>
-							<li><span class="line r"><b>R</b></span></li>
-							<li><span class="line html"></span><b> HTML/CSS</b></li>
-                                                </ul>
-                                        </div>
-                                        <div class="box" data-aos="zoom-out">
-						<span></span>
-						<span></span>
-						<span></span>
-						<span></span>
-						<div class="content">
-							<h3>Research Assisstant UIUC</h3>
-							<p>Spring 2020 - Present</p>
-							<h4> Prism laboratory</h4>
-                                                                <li>Creating Pre-processing pipelines for task-based functional neuroimaging designs (fMRI)</li>
-                                                                <li>Contributing to brain-based predictive modelling of psychological risk in peripartum women</li>
-						</div>
-					</div>
-					<div class="box" data-aos="zoom-out">
-						<span></span>
-						<span></span>
-						<span></span>
-						<span></span>
-						<div class="content">
-							<h3>Course Assistant UIUC</h3>
-							<p>Fall 2019-Present</p>
-							<h4> Data Science Exploration, STAT207</h4>
-                                                                <li>Assisting students in understanding Python and its data tools by holding laboratory hours twice a week</li>
-                                                                <li>Evaluating laboratory submissions, exams, and projects on a weekly basis for 15+ students</li>
-						</div>
-					</div>
-					<div class="box" data-aos="zoom-out">
-						<span></span>
-						<span></span>
-						<span></span>
-						<span></span>
-						<div class="content">
-							<h3>Research Assisstant UIUC</h3>
-							<p>Spring Semester 2019</p>
-							<h4> Clancy laboratory</h4>
-                                                                <li>Performed a correlation study on a demographic dataset collected on the different aspects of identity for Polish and Polish-American Women</li>
-                                                                <li>Organized and analysed data using REDCAP to make it more decipherable for research purposes</li>
-						</div>
-					</div>
-				</div>
-			</div>
                 </section>
-                <!-- Qualifications -->
-		<section id="qualification" class="three">
+                <!--Qualifications-->
+                <section id="qualification" class="three">
                         <header>
                                 <h2 class="heading-shadow">Qualifications</h2>
                         </header>
@@ -193,7 +137,7 @@
                                                                         <li>CS126: Software Design Studio</li>
                                                                         <li>CS173: Discrete Structures</li>
                                                                         <li>CS125: Introduction to Computer Science</li>
-                                                                        <a href="#CSmore">Read More</a>
+                                                                        <a href="#csmore" id = "csmore">Read More</a>
                                                                 
                                                                 </div>
                                                         </div>
@@ -208,7 +152,7 @@
                                                                         <li>STAT200: Statistical Analysis</li>
                                                                         <li>MATH415: Linear Algebra</li>
                                                                         <li>MATH221, MATH231, MATH241: Calculus Series</li>
-                                                                        <a href="#CSmore">Read More</a>
+                                                                        <a href="#statmore" id = "statmore">Read More</a>
                                                                 
                                                                 </div>
                                                         </div>
@@ -223,7 +167,7 @@
                                                                         <li>ECON302: Intermediate Microeconomics</li>
                                                                         <li>ECON203: Economic Statistics II</li>
                                                                         <li>ECON102: Introduction to Microeconomics</li>
-                                                                        <a href="#CSmore">Read More</a>
+                                                                        <a href="#econmore" id ="econmore">Read More</a>
                                                                 
                                                                 </div>
                                                         </div>
@@ -240,7 +184,7 @@
                                                                         <li>MUS130: Music then and Now</li>
                                                                         <li>ANTH246: Introduction to Forensic Science</li>
 
-                                                                        <a href="#CSmore">Read More</a>
+                                                                        <a href="#restmore" id = "restmore">Read More</a>
                                                                 
                                                                 </div>
                                                         </div>
@@ -268,7 +212,6 @@
                                         });
                                 </script>
                                 <div><h4>Student Organizations</h4></div>
-                                <div><h4>Academic Assistantships</h4></div>
                         </div>
                         <!-- container is used for the colored logo part-->
                         <div class="container">
@@ -285,8 +228,75 @@
                         </div>
 		</section>
 
+                <!-- Skills !--> <!--yes, both skills and assistantships are class four, DO NOT CHANGE THAT IT WILL BREAK WHICHEVER IS NOT FOUR-->
+		<section id="skills" class="four">
+			<div class="container">
+				<header>
+					<h2>Skills</h2>
+				</header>
+				<div class="skills" data-aos="zoom-out">
+                                        <h3>Languages</h3>
+                                        <ul class="single-skills">
+                                                <li><span class="line java"></span><b> JAVA</b></li>
+                                                <li><span class="line c"></span><b> C++</b></li>
+                                                <li><span class="line python"><b>PYTHON</b></span></li>
+                                                <li><span class="line r"><b>R</b></span></li>
+                                                <li><span class="line html"></span><b> HTML/CSS</b></li>
+                                        </ul>
+                                </div>
+
+			</div>
+		</section>
+		<!-- Experience -->
+		<section id="assistantships" class="four">
+			<div class="container">
+				<header>
+					<h2 class="heading-shadow">Assistantships</h2>
+                                </header>
+                                        <div class="box" data-aos="zoom-out">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+						<div class="content">
+							<h3>Research Assisstant UIUC</h3>
+							<p>Spring 2020 - Present</p>
+							<h4> Prism laboratory</h4>
+                                                                <li>Creating Pre-processing pipelines for task-based functional neuroimaging designs (fMRI)</li>
+                                                                <li>Contributing to brain-based predictive modelling of psychological risk in peripartum women</li>
+						</div>
+					</div>
+					<div class="box" data-aos="zoom-out">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+						<div class="content">
+							<h3>Course Assistant UIUC</h3>
+							<p>Fall 2019-Present</p>
+							<h4> Data Science Exploration, STAT207</h4>
+                                                                <li>Assisting students in understanding Python and its data tools by holding laboratory hours twice a week</li>
+                                                                <li>Evaluating laboratory submissions, exams, and projects on a weekly basis for 15+ students</li>
+						</div>
+					</div>
+					<div class="box" data-aos="zoom-out">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+						<div class="content">
+							<h3>Research Assisstant UIUC</h3>
+							<p>Spring Semester 2019</p>
+							<h4> Clancy laboratory</h4>
+                                                                <li>Performed a correlation study on a demographic dataset collected on the different aspects of identity for Polish and Polish-American Women</li>
+                                                                <li>Organized and analysed data using REDCAP to make it more decipherable for research purposes</li>
+						</div>
+					</div>
+				
+			</div>
+                </section>
 		<!-- Portfolio -->
-		<section id="portfolio" class="five">
+		<section id="portfolio" class="six">
 			<header>
 				<h2 class="heading-shadow">Projects</h2>
 			</header>
@@ -420,7 +430,7 @@
 			<li>saumyaa2@illinois.edu</li>
 		</ul>
 	</div>
-	<!-- The Modals -->
+	<!-- The Modals for projects -->
 	<div id="dialogue-modal" class="modal">
 
 		<!-- Modal content -->
@@ -509,8 +519,141 @@
 					allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 			<script src="https://player.vimeo.com/api/player.js"></script>
 		</div>
-	</div>
-	<!-- Scripts -->
+        </div>
+        <!--modal for courses-->
+        <!--MODAL FOR CS-->
+        <div id="modalCS" class="modal-course">
+
+                <!-- Modal content -->
+                <div class="modal-content-course">
+                  <div class="modal-header-course">
+                    <span class="close-course">&times;</span>
+                    <h2>Computer Science</h2>
+                  </div>
+                  <div class="modal-body-course">
+                    <ul>CS225: Data StructuresThe</ul>
+                    <p>Some other text... wcwrklckefnwpkeedcdssddcsdcdcsd</p>
+                  </div>
+                </div>
+        </div>
+        <script>
+                // Get the modal
+                var modalCS = document.getElementById("modalCS");
+                
+                // Get the button that opens the modal
+                var btnCS = document.getElementById("csmore");
+                
+                // Get the <span> element that closes the modal
+                var spanCS = document.getElementsByClassName("close-course")[0];
+                
+                // When the user clicks the button, open the modal 
+                btnCS.onclick = function() {
+                  modalCS.style.display = "block";
+                }
+                
+                // When the user clicks on <span> (x), close the modal
+                spanCS.onclick = function() {
+                  modalCS.style.display = "none";
+                }
+                
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                  if (event.target == modalCS) {
+                    modalCS.style.display = "none";
+                  }
+                }
+        </script>
+        <!--Modal for Math and Stat-->
+        <div id="modalSTAT" class="modal-course">
+                <!-- Modal content -->
+                <div class="modal-content-course">
+                  <div class="modal-header-course">
+                    <span class="close-course">&times;</span>
+                    <h2>Statistics And Mathematics</h2>
+                  </div>
+                  <div class="modal-body-course">
+                    <p>Some text in the Modal Body</p>
+                    <p>Some other texcdcdt...</p>
+                  </div>
+                </div>
+        </div>
+        <script>
+                var modalStat = document.getElementById("modalSTAT");
+                var btnStat = document.getElementById("statmore");
+                var spanStat = document.getElementsByClassName("close-course")[1];
+                btnStat.onclick = function() {
+                  modalStat.style.display = "block";
+                }
+                spanStat.onclick = function() {
+                  modalStat.style.display = "none";
+                }
+                window.onclick = function(event) {
+                  if (event.target == modalStat) {
+                    modalStat.style.display = "none";
+                  }
+                }
+        </script>
+        <!--Econ-->
+        <div id="modalECON" class="modal-course">
+                <!-- Modal content -->
+                <div class="modal-content-course">
+                  <div class="modal-header-course">
+                    <span class="close-course">&times;</span>
+                    <h2>Economics</h2>
+                  </div>
+                  <div class="modal-body-course">
+                    <p>Some text in the Modal Body</p>
+                    <p>Some other texcdcdt...</p>
+                  </div>
+                </div>
+        </div>
+        <script>
+                var modal = document.getElementById("modalECON");
+                var btn = document.getElementById("econmore");
+                var span = document.getElementsByClassName("close-course")[2];
+                btn.onclick = function() {
+                  modal.style.display = "block";
+                }
+                span.onclick = function() {
+                  modal.style.display = "none";
+                }
+                window.onclick = function(event) {
+                  if (event.target == modal) {
+                    modal.style.display = "none";
+                  }
+                }
+        </script>
+        <!--rest courses-->
+        <div id="modalREST" class="modal-course">
+                <!-- Modal content -->
+                <div class="modal-content-course">
+                  <div class="modal-header-course">
+                    <span class="close-course">&times;</span>
+                    <h2>Miscellaneous</h2>
+                  </div>
+                  <div class="modal-body-course">
+                    <p>Some text in the Modal Body</p>
+                    <p>Some other texcdcdt...</p>
+                  </div>
+                </div>
+        </div>
+        <script>
+                var modal = document.getElementById("modalREST");
+                var btn = document.getElementById("restmore");
+                var span = document.getElementsByClassName("close-course")[3];
+                btn.onclick = function() {
+                  modal.style.display = "block";
+                }
+                span.onclick = function() {
+                  modal.style.display = "none";
+                }
+                window.onclick = function(event) {
+                  if (event.target == modal) {
+                    modal.style.display = "none";
+                  }
+                }
+        </script>
+        <!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
 	<script src="assets/js/jquery.scrollex.min.js"></script>

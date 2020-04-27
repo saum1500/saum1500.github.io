@@ -8,6 +8,8 @@
 */
 /* red color: rgb(179, 88, 88); */
 /* text color: color:rgba(216, 201, 201, 0.699);*/
+/* illinois blue: rgba(3, 16, 41, 0.87);*/
+/*rgba(218, 85, 9, 0.89);*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -231,6 +233,78 @@ input, select, textarea {
                 width: 300px;
         }
 
+        /* courses model */
+        /* The Modal (background) */
+.modal-course {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      
+      /* Modal Content */
+      .modal-content-course{
+        position: relative;
+        background-color: rgb(203, 201, 216);;
+        margin: auto;
+        padding: 0;
+        border: 1px solid #888;
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        -webkit-animation-name: animatetop;
+        -webkit-animation-duration: 0.4s;
+        animation-name: animatetop;
+        animation-duration: 0.4s
+      }
+      .modal-content-course p {
+              color: black;
+      }
+      .modal-content-course ul, b{
+              color:black;
+      }
+      
+      /* Add Animation */
+      @-webkit-keyframes animatetop {
+        from {top:-300px; opacity:0} 
+        to {top:0; opacity:1}
+      }
+      
+      @keyframes animatetop {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+      }
+      
+      /* The Close Button */
+      .close-course{
+        color: white;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close-course:hover,
+      .close-course:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+      .modal-header-course{
+        padding: 2px 16px;
+        background-color: rgba(3, 16, 41, 0.87);
+      }
+      .modal-header-course h2 {
+        color: rgb(218,85,9, 0.857);
+      }
+      
+      .modal-body-course {padding: 2px 16px;}
         /*uiuc courses end*/
 
 
@@ -2457,8 +2531,8 @@ input, select, textarea {
 				position: relative;
 				width: 400px;
 				height: 407px;
-                                left:40px auto;
-				right:50px auto;
+                                /*left:40px auto;
+				right:50px auto;*/
 			}
 			.box .content {
 				position: absolute;
@@ -2475,14 +2549,18 @@ input, select, textarea {
                         .box .content h3 {
                                 margin: 0;
                                 padding: 0;
+                                font-size: 30px;
                         }
                         .box .content h4 {
                                 margin: 0;
+                                font-size: 20px;
                                 padding: 0;
+                                
                         }
                         .box .content p {
                                 margin: 0 0;
                                 padding: 0;
+                                font-size: 20px;
                         }
 			.box .content:before {
 				content:'';
@@ -2498,15 +2576,17 @@ input, select, textarea {
                         }
                         .box .content li {
                                 color:rgba(221, 210, 210, 0.836) ;
+                                font-size: 20px;
                         }
 			.box span {
 				position: absolute;
 				top:0;
-				left:0;
+				left:50;
 				width: 100%;
 				height: 100%;
 				display: block;
-				pointer-events: none;
+                                pointer-events: none;
+                                
 			}
 			.box span:before {
 				content: '';
@@ -2532,6 +2612,7 @@ input, select, textarea {
 			.box span:nth-child(4) {
 				transform: rotate(270deg);
 			}
+                        /*this makes the boxes next to eachother*/
 			.box:nth-child(1) {
 				float: right;
 
@@ -2647,7 +2728,7 @@ input, select, textarea {
 			
 			
 /*Portfolio*/
-.five .container {
+.six .container {
 	width:1280px;
 	padding-left: 50px;
 	min-height: 500px;
@@ -2657,7 +2738,7 @@ input, select, textarea {
 	flex-direction: row;
 	flex-wrap:wrap;
 }
-.five .container .boxp {
+.six .container .boxp {
 	position: relative;
 	height:300px;
 	width:300px;
@@ -2666,18 +2747,18 @@ input, select, textarea {
 	box-sizing:border-box;
 	display: inline-block;
 }
-.five .container .boxp .imgBox {
+.six .container .boxp .imgBox {
 	position: relative;
 	overflow: hidden;
 }
-.five .container .boxp .imgBox img {
+.six .container .boxp .imgBox img {
 	max-width: 100%;
 	transition: transform 2s;
 }
-.five .container .boxp:hover .imgBox img {
+.six .container .boxp:hover .imgBox img {
 	transform: scale(1.2);
 }
-.five .container .boxp .details {
+.six .container .boxp .details {
 	position: absolute;
 	top:10px;
 	left:10px;
@@ -2688,10 +2769,10 @@ input, select, textarea {
 	transition: transform 0.5s;
 
 }
-.five .container .boxp:hover .details {
+.six .container .boxp:hover .details {
 	transform: scaleY(1);
 }
-.five .container .boxp .details .content {
+.six .container .boxp .details .content {
 	position: absolute;
 	top:58%;
 	transform: translateY(-50%);
@@ -2701,13 +2782,13 @@ input, select, textarea {
 	font-size: 13px;
 	color: #fff;
 }
-.five .container .boxp .details .content h3 {
+.six .container .boxp .details .content h3 {
 	margin:0;
 	padding:0;
 	font-size:20px;
 	color: rgba(241, 234, 234, 0.884);
 }
-.five .container .boxp .details .content p {
+.six .container .boxp .details .content p {
 	color:rgba(230, 220, 220, 0.863);
 }
 

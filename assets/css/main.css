@@ -144,7 +144,7 @@ input, select, textarea {
         }
         .shiklogo h3{
                 font-weight: 500;
-                font-size: 35pt;
+                font-size: 40pt;
                 color: rgb(255,255,255,0.1);
                 background-image:url(./images/shikbo.jpg) ;
                 background-repeat: repeat-x;
@@ -2294,7 +2294,7 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			position: relative;
-			padding: 1.5em 0 0.75em 0;
+			padding: 1em 0 0.5em 0; /* changed from 1.25 and 0.75*/
 		}
 
 			#header .bottom > :last-child {
@@ -2366,7 +2366,7 @@ input, select, textarea {
 		list-style: none;
 		padding-left: 0;
 		margin-bottom: 0;
-		margin-top: 80px;
+		margin-top: 60px; /*changed from 80 to add to nav list*/
 	}
 
 		#nav ul li {

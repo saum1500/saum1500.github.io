@@ -316,8 +316,62 @@ input, select, textarea {
         .swiper-slide .imgBoxRso img {
                 width: 100%;
         }
+        /*shik flipper*/
+        .containerpage {
+                max-width: 1000px;
+                margin: 100px auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
 
+        }
+        .cardshik {
+                position: relative;
+                margin: 20px 0;
+                width: 610px;
+                height: 250px;
+                transform-style: preserve-3d;
+                transform: perspective(2000px);
+                transition: 1s;
+                box-shadow: inset 610px 0 50px #0f1113;
+        }
+        .cardshik:hover {
+                z-index: 1000;
+                transform: perspective(2000px) rotate(-10deg);
+                box-shadow: inset 20px 0 50px #0e0f0f;
+        }
+        .cardshik .imgBoxShik {
+                position: relative;
+                height:100%;
+                width:100%;
+                border: 1px solid #202428;
+                box-sizing: border-box;
+                transform-origin: left;
+                z-index: 1;
+                transition: 1s;
+        }
+        .cardshik:hover .imgBoxShik{
+                transform:rotateY(-135deg);
+        }
+        .cardshik .imgBoxShik img {
+                position: absolute;
+                top:0;
+                left: 0;
+                /*width: 80%;
+                height: 80%;*/
+                object-fit: cover;
 
+        }
+        .cardshik .shikdetails {
+                position: absolute;
+                top:0;
+                left:0;
+                box-sizing: border-box;
+                padding: 25px;
+        }
+        .cardshik .shikdetails h3 {
+                font-size: 20px;
+        }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
 		text-decoration: none;

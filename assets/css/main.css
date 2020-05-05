@@ -2697,6 +2697,10 @@ input, select, textarea {
 			.box:nth-child(2) {
 				float:left;
                         }
+                        /*skills section */
+                        .skills-exp h3{
+                                font-size: 1em;
+                        }
                         
                         /*skills bar 
 			#main > section.four .container{

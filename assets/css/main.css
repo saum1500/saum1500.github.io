@@ -239,7 +239,7 @@ input, select, textarea {
         display: none; /* Hidden by default */
         position: fixed; /* Stay in place */
         z-index: 1; /* Sit on top */
-        padding-top: 100px; /* Location of the box */
+        padding-top: 50px; /* Location of the box */ /* I changed this to decrease the value from the top.*/
         left: 0;
         top: 0;
         width: 100%; /* Full width */
@@ -304,7 +304,21 @@ input, select, textarea {
         color: rgb(218,85,9, 0.857);
       }
       
-      .modal-body-course {padding: 2px 16px;}
+      .modal-body-course {
+              padding: 2px 16px;}
+              .modal-body-course ul {
+                      line-height: 1em;
+                      margin-top: 0.1em;
+                      padding: 0;
+                      margin-bottom: 0;
+                      font-size: 1em;
+              }
+              .modal-body-course p {
+                      font-size: 0.9em;
+                      line-height: 1em;
+                      margin-bottom: 0.7em;
+                      margin-top: 0;
+              }
         /*uiuc courses end*/
 
         /*uiuc RSOs*/

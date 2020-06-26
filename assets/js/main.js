@@ -27,6 +27,34 @@
 		}, 100);
 	});
 
+	// Stock Prediction
+	// Get the modal
+	var modal0 = document.getElementById("stock-modal");
+
+	// Get the button that opens the modal
+	var btn0 = document.getElementById("stock-btn");
+
+	// Get the <span> element that closes the modal
+	var span0 = document.getElementsByClassName("close")[0];
+
+	// When the user clicks on the button, open the modal 
+	btn0.onclick = function () {
+		modal0.style.display = "block";
+	}
+
+	// When the user clicks on <span> (x), close the modal
+	span0.onclick = function () {
+		modal0.style.display = "none";
+	}
+
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function (event) {
+		if (event.target == modal0) {
+			modal0.style.display = "none";
+		}
+	}
+
+	//########
 
 	//dialogue
 	// Get the modal
@@ -36,7 +64,7 @@
 	var btn1 = document.getElementById("dialogue-btn");
 
 	// Get the <span> element that closes the modal
-	var span1 = document.getElementsByClassName("close")[0];
+	var span1 = document.getElementsByClassName("close")[1];
 
 	// When the user clicks on the button, open the modal 
 	btn1.onclick = function () {
@@ -64,7 +92,7 @@
 	var btn2 = document.getElementById("research-btn");
 
 	// Get the <span> element that closes the modal
-	var span2 = document.getElementsByClassName("close")[1];
+	var span2 = document.getElementsByClassName("close")[2];
 
 	// When the user clicks on the button, open the modal 
 	btn2.onclick = function () {
@@ -90,7 +118,7 @@
 	var btn3 = document.getElementById("soybean-btn");
 
 	// Get the <span> element that closes the modal
-	var span3 = document.getElementsByClassName("close")[2];
+	var span3 = document.getElementsByClassName("close")[3];
 
 	// When the user clicks on the button, open the modal 
 	btn3.onclick = function () {
@@ -116,7 +144,7 @@
 	var btn4 = document.getElementById("lazy-btn");
 
 	// Get the <span> element that closes the modal
-	var span4 = document.getElementsByClassName("close")[3];
+	var span4 = document.getElementsByClassName("close")[4];
 
 	// When the user clicks on the button, open the modal 
 	btn4.onclick = function () {

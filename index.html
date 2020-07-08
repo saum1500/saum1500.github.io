@@ -298,7 +298,7 @@
                                 </div>
                                 <div class = "skills-exp">
                                         <h3>Familiar Libraries and packages: Pandas, scikit-learn, numpy, beautiful soup</h3>
-                                        <h3>Experience in: Web scraping, sentiment analysis, de-identifying metadata</h3>
+                                        <h3>Experience in: Web scraping, data cleaning, sentiment analysis, de-identifying metadata</h3>
                                         <h3>Debugging Tools: valgrind, GDB.</h3>
                                 </div>
 			</div>
@@ -357,6 +357,22 @@
 				<h2 class="heading-shadow">Projects</h2>
 			</header>
 			<div class="container" data-aos="zoom-in">
+                                <a id="twitter-btn">
+					<div class="boxp">
+						<div class="imgBox">
+							<img src="images/twitter2.png">
+						</div>
+						<div class="details">
+							<div class=content>
+								<h3>Twitter News Sentiment Analysis</h3>
+								<p> Streamed tweets by 30 most followed news providers on twitter regarding the Black Lives Matter movement.
+                                                                I used NLP tools to calculate and represent the sentiment polarity grouped by news provider and the likes and retweets were visualized as timeseries data
+                                                                        
+                                                                </p>
+							</div>
+						</div>
+					</div>
+				</a>
                                 <a id="stock-btn">
 					<div class="boxp">
 						<div class="imgBox">
@@ -504,6 +520,25 @@
 		</ul>
 	</div>
         <!-- The Modals for projects -->
+        <div id="twitter-modal" class="modal">
+
+		<!-- Modal content -->
+		<div class="modal-content">
+			<div class="modal-header">
+				<span class="close">&times;</span>
+				<h2>Twitter News Sentiment Analysis</h2>
+			</div>
+			<div class="modal-body">
+				<p>This code was written in python using the pandas, scikit-learn, matplotlib and the twitter API. Tweets from 7 days prior to June 25th were used for 30 most followed twitter handles to quantify framing bias.
+				</p>
+			</div>
+			<!--<embed src="assets/PDFs/Agrawal2019.pdf#toolbar=0" type="application/pdf" width="100%" height="400px" />-->
+			<object data="assets/PDFs/TwitterData.pdf#toolbar=0" type="application/pdf" width="100%" height="100%">
+			</object>
+			<!---<iframe src="assets/PDFs/Agrawal2019.pdf#toolbar=0" width=100% height="500px" ; top="0" ;
+				left="20px"></iframe>-->
+		</div>
+	</div>
         <div id="stock-modal" class="modal">
 
 		<!-- Modal content -->
